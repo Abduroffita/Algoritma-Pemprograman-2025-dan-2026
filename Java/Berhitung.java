@@ -9,5 +9,7 @@ public class Berhitung {
         double r = sc.nextDouble();
         double luas = PI * r * r;
         System.out.println("Luas lingkaran: " + luas);
+        
+        sc.close();
     }
 }
