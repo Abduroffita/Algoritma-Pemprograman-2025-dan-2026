@@ -1,3 +1,4 @@
+package pertemuan_7;
 import java.util.Scanner;
 
 public class nilai7 {
