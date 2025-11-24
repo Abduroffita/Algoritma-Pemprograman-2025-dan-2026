@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class StrukBelanja {
+public class strukbelanja {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
@@ -12,7 +12,7 @@ public class StrukBelanja {
         int jumlah = input.nextInt();
 
         float total = harga * jumlah;
-        float diskon = (total > 100000) ? total * 0.10f : 0;
+        float diskon = (total > 73600) ? total * 0.6f : 0;
         float totalBayar = total - diskon;
 
         System.out.println("\n===== STRUK PEMBELIAN =====");
