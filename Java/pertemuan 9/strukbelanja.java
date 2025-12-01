@@ -12,7 +12,11 @@ public class strukbelanja {
         int jumlah = input.nextInt();
 
         float total = harga * jumlah;
+<<<<<<< HEAD
         float diskon = (total > 73600) ? total * 0.6f : 0;
+=======
+        float diskon = (total > 736000) ? total * 0.6f : 0;
+>>>>>>> 15a9a4ae9472e481a9aaa768f5a9b5a8ceb84a7a
         float totalBayar = total - diskon;
 
         System.out.println("\n===== STRUK PEMBELIAN =====");
